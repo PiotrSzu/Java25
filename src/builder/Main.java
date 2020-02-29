@@ -5,6 +5,6 @@ public class Main {
         Pizza pizza = new Pizza.PizzaBuilder(" cienkie", " Pepperoni, Jalapeno, Ser, Szpinak", " Czosnkowy")
                 .setOstra(true)
                 .build();
-        System.out.println(pizza.toString());
+        System.out.println(pizza.toString()); // to String dlatego, że nadpisaliśmy sobie opic@override w klasie pizza.
     }
 }
